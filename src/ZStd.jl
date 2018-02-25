@@ -10,7 +10,7 @@ else
 end
 
 
-immutable ZStdError <: Exception
+struct ZStdError <: Exception
     msg::String
 end
 
